@@ -1,0 +1,184 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+body {
+    background-color: #260144;
+    color: white;
+    
+}
+header > h2 {
+    position: relative;
+    left: 4rem;
+    font-size: 4rem;
+    padding: 2rem;
+    cursor: pointer;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+header > ul {
+    display: flex;
+    list-style: none;
+    gap: 2.4rem;
+    font-size: 1.4rem;
+    padding: 3rem;
+    cursor: pointer; 
+}
+.hiring {
+    position: absolute;
+    font-size: 0.9rem;
+    background-color: #6f5242;
+    padding: 0.2rem 0.4
+    rem;
+    border-radius: 0.7rem;
+    border: 1px solid #f5e93c;
+}
+
+.Groceries{
+    display: flex;
+    justify-content: space-between;
+}
+.Groceries h1  {
+    position: relative;
+    left: 5rem;
+    top: 5rem;   
+    font-size: 7.5rem;
+    line-height: 8rem;
+    
+} 
+.Groceries > div> img {
+    display: flex;
+    position: relative;
+    top: 7rem;
+    left: 5rem;
+    width: 50rem;
+}
+.button {
+    display: flex;
+    position: relative ;
+    top: 8rem;
+    left: 5rem;
+    gap: 2rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ff3a67;
+    border-radius: 2rem;
+    margin: 5rem;
+    height: 25rem;
+}
+.box > h2 {
+    display: flex;
+    position: relative;
+    top: 2rem;
+    font-size: 2rem;
+}
+.shap {
+    display: flex;
+    gap: 6rem;
+    flex-direction: row;
+    font-size: 1.5rem;
+    padding-top: 2rem ;
+}
+.manej {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 3rem;
+}
+        /* CARD */
+.had h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.card {
+    display: grid;
+    justify-content: center;
+}
+.cover-1{
+    display: flex;
+    gap: 30rem;
+    position: relative;
+    top: 5rem;
+}
+.cover-1 > div > p {
+    display: flex;
+    position: relative;
+    bottom: 2rem;
+    font-size: 1.5rem;
+}
+.cover-2{
+    display: flex;
+    gap: 30rem;
+    position: relative;
+    top: 15rem;
+
+}
+.cover-2 > div > p {
+    display: flex;
+    position: relative;
+    bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.card > div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 25rem;
+    
+}
+.card > div > p {
+    display: flex;
+    position: relative;
+    bottom: 2rem;
+    font-size: 1.5rem;
+}
+/* last */
+.info {
+    display: grid;
+    flex-direction: column;
+    position: relative;
+    top: 30rem;
+    padding: 5rem;
+}
+.info > div  {
+    display: flex;
+    justify-content: space-between;
+}
+.logo img {
+    width: 8rem;
+}
+.vagitable{
+    display: flex;
+    width: 20rem;
+}
+.list-itm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 0.5rem 5rem;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+.icon > li {
+    list-style: none;
+    padding: 2rem rem;
+}
+.cloud {
+    position: absolute;
+    top: 0rem;
+    left: 40rem;
+    order: -3;
+}
